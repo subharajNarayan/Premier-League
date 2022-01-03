@@ -1,0 +1,640 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/sidebar.css">
+    <link rel="stylesheet" href="CSS/signin.css">
+    <title>Premier league</title>
+    <link rel="shortcut icon" type="images/x-icon" href="imagesvideos/logo.JPG">
+    <style>
+        nav {
+            position: relative;
+            width: 100%;
+            padding-right: 20px;
+            /* top: auto; */
+        }
+
+        /* .account {
+            margin-top: 130px;
+        }
+
+        #mainContent {
+            clear: both;
+            position: relative;
+            padding-top: 0;
+        }
+
+        .pageHero {
+            background-color: #37003c;
+            margin-top: 6rem;
+            background-size: auto 100%;
+            height: 22%;
+            position: relative;
+        }
+
+        .wrapper {
+            float: none;
+        }
+        input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+} */
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar-expand-md bg-light navbar-light" style="padding-right: 20px;">
+        <div class="row topnav">
+            <div class="col-md-1">
+                <div class="navbar-header">
+                    <div class="logo_container">
+                        <img src="imagesvideos/logo.JPG" alt="premier" width="50px">
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+                    style="float: right; padding: 10px; margin: 10px 10px 0 0;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-md-8 navigation collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav" id="navbartop">
+                    <li class="nav-item">
+                        <div class="premiernav">
+                            <button class="priembtn">Premier League
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="premiernav-content" style="background-color: #ff2882;">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Home</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Players</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Fixtures</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Managers</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Results</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">News</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Tables</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Social</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Hall of Fame</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Youth</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Transfers</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Safeguarding</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Broadcast</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">History</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Tickets</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Referees</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Clubs</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="fantasynav">
+                            <button class="fantasybtn">Fantasy
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="fantasynav-content" style="background-color: #ff2882;">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <a href="#">Fantasy</a>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <a href="#">Fantasy draft</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item nav_video">
+                        <a class="nav-link" href="#">
+                            <p> Video </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="communitnav">
+                            <button class="communitbtn">Communities
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="communitnav-content" style="background-color: #ff2882;">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="#">Latest</a>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <a href="#">Facilities</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="#">Strategy</a>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <a href="#">PL Charitable Fund</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="#">Programms</a>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <a href="#">Supporting the Game</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <div class="morenav">
+                            <button class="morebtn">More
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="morenav-content" style="background-color: #ff2882;">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Stats</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">About</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Stay Well</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Season Review</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">WE are one Team</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Nike Ball Hub</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Rainbow Laces</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Contact Us</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">King of the Match</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Poppy</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Transfers</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Asia Trophy</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">VAR</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">PL Live</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Photos</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Publications</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">Partners</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Legals</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="#">ePremier League</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Hall of Fame</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 collapse navbar-collapse" id="collapsibleNavbar" style="background-color:#4A235A;">
+                <ul class="navbar-nav">
+                    <li class="nav-item" id="roomText">
+                        <a href="#" class="nav-link"> No Room For Racism</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="accountHeader">
+        <div class="container">
+            <h1>Your Account</h1>
+        </div>
+    </main>
+    <div class="wrapper" style="margin-top: 20px;">
+        <div class="container">
+            <div class="row accountPage">
+                <div class="col-md-6">
+                    <h1>Sign In</h1>
+                    <form action="action_page.php">
+                        <div class="accountForm">
+                            <label for="eaddress">Email Address</label>
+                            <input type="text" id="eaddress" name="emailaddress" placeholder="Email Address" required>
+                        </div>
+                        <div class="accountForm">
+                            <label for="pwd">Password</label>
+                            <input type="password" id="pwd" name="password" placeholder="Password" required>
+                        </div>
+                        <div class="formDetail">
+                            <a href="#">Forget login details?</a>
+                            <button type="submit" class="signin">Sign in</button>
+                        </div>
+                        <div class="formline">
+                            <span>or login with</span>
+                        </div>
+                        <div class="social_login">
+                            <a href="#" class="SL_btn fab fa-facebook-f"><span>Facebook</span></a>
+                            <a href="#" class="SL_btn fab fa-twitter"><span>Twitter</span></a>
+                            <a href="#" class="SL_btn fab fa-google-plus-g"><span>Google</span></a>
+                            <a href="#" class="SL_btn fab fa-apple"><span>Apple</span> </a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="d-none d-lg-block">Register</h1>
+                    <div class="registerPage">
+                        <h5>Don't have a Premier League Account</h5>
+                        <p>In that case, you are missing out on:</p>
+                        <ul>
+                            <li>Fantasy Premier League football game</li>
+                            <li>Exclusive fan services</li>
+                            <li>Customised site content</li>
+                            <li>Favourite Club information and notifications</li>
+                        </ul>
+                        <div class="register">
+                            <a href="#">
+                                <button class="registerbtn">Register</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --Footer-- -->
+
+<div class="panel-footer" style="background-color: #4A235A; margin-top: 7px; padding-left: 80px;">
+    <div class="container-fluid">
+        <div class="row panel-footer-text">
+            <div class="col-md-3 footerHead" id="premierHeader">
+                <h5>Premier League</h5>
+                <div class="row">
+                    <div class="col-md-5 col-6">
+                        <ul class="navbar-nav list_Footer">
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Fixtures</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Results</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Tables</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Transfer</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Broadcast</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Tickets</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Club</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-6">
+                        <ul class="navbar-nav list_Footer">
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Players</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Managers</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">News</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Social</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Youth</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Safeguarding</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">History</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Referees</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 col-6">
+                <div class="footerHead">
+                    <h5>Fantasy</h5>
+                </div>
+                <ul class="navbar-nav list_Footer">
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">FPL Home</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">My Team</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">FPL Transfer</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">Leagues</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">FPL Fixtures</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">Statistics</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">The Scout</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-1 col-6">
+                <div class="footerHead">
+                    <h5>Videos</h5>
+                </div>
+                <ul class="navbar-nav list_Footer">
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">Latest Videos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="footerHead">
+                    <h5>Communities</h5>
+                </div>
+                <ul class="navbar-nav list_Footer">
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">Latest</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">Programmes</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">PL Kick Heroes</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">Strategy</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">PL Primary Stars</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 footerHead">
+                <h5>More</h5>
+                <div class="row">
+                    <div class="col-md-6 col-6">
+                        <ul class="navbar-nav list_Footer">
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Stay Well</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">No Room for Racism</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Rainbow Laces</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">King of the Match</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Transfer</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">VAR</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Photos</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">Partners</a>
+                            </li>
+                            <li class="nav-item FooterText">
+                                <a href="#" class="nav-link">ePremier League</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 col-6">
+                        <ul class="navbar-nav list_Footer" style="margin-top: 12px;">
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Season Review</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Nike Ball Hub</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Contact Us</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Poppy</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Asian Trophy</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">PL Live</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Publications</a>
+                            </li>
+                            <li class="nav-item leagueFooterText">
+                                <a href="#" class="nav-link">Legal</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="footerHead">
+                    <h5>Social</h5>
+                </div>
+                <ul class="navbar-nav list_Footer">
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">Pl on Youtube</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">PL on Facebook</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">FPL on Facebook</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">PL on Twitter</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">FPL on Twitter</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">Pl communities on Twitter</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">PL Youth on Twitter</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">PL on Instagram</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">PL USA on Twitter</a>
+                    </li>
+                    <li class="nav-item FooterText">
+                        <a href="#" class="nav-link">PL Music on Spotify</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<hr style="height: 1px; background-color: blanchedalmond;">
+<!-- --Premier League @Rights-- -->
+<div class="bottom-footer" style="height: 60px;">
+    <div class="container-fluid">
+        <div class="row footer-text">
+            <div class="col-md-2">
+                <p>@ 2021 Premier League</p>
+            </div>
+            <div class="col-md-7 recent-text">
+                <ul>
+                    <li><a href="#">Modern Slavery Statement</a></li>
+                    <li><a href="#">Equality, Diversity and Inclusion Standard</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Policies</a></li>
+                    <li><a href="#" style=" border-right: none;">Back To Top</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-logo">
+                <div class="premierFooter">
+                    <div class="premierfooterText">
+                        <h5>Premier</h5>
+                    </div>
+                    <div class="premierfooter_logo">
+                        <img src="imagesvideos/logo.JPG" alt="premierlogo" width="30px">
+                    </div>
+                    <div class="leagueFooter">
+                        <h5>League</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

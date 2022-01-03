@@ -1,0 +1,196 @@
+.accountHeader {
+    height: 200px;
+    margin-top: 15px;
+    background-color: #37003c;
+    position: relative;
+}
+
+.accountHeader div h1 {
+    position: absolute;
+    margin-top: 60px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'PremierSans-Bold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+}
+
+.accountPage div h1 {
+    background-color: #e90052;
+    color: #fff;
+    margin: 0 -2rem 1rem 0;
+    padding: 0.6rem 2rem;
+    font-family: "PremierSans-Light", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+.accountForm{
+    width: 100%;
+    margin-bottom: 2.5rem;
+    clear: both;
+    display: inline-block;
+    position: relative;
+}
+.accountForm label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: "PremierSans-Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    width: 30%;
+}
+.accountForm input{
+    background-color: #e8e8e8;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    height: 47px;
+    border-bottom: 1px solid #76766f;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+    appearance: none;
+}
+
+.formDetail{
+    margin-bottom: 1rem;
+    position: relative;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+}
+.formDetail a{
+    color: #e90052;
+    font-family: "PremierSans-Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 0.8rem;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+.formDetail [type="submit"]{    
+    float: right;
+    width: 50%;
+}
+.formDetail .signin{
+    background: #37003c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 2px;
+}
+.formDetail:hover .signin{
+    background: #080009;
+}
+
+.formline{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto 25px 60px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.formline span {
+    background: #fff;
+    padding: 7px;
+    position: relative;
+    top: 10px;
+}
+/* .formline hr{
+    width: 75%;
+    margin: 0 auto 0 auto;
+    background-color: #ABB2B9;
+    border-bottom: 1px solid #e4e4e4;
+} */
+/* .formline p{
+    position: relative;
+    top: -23px;
+    left: 221px;
+    padding: 7px;
+    background: #fff;
+    width: 21%;
+} */
+.social_login{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.social_login a{
+    width: calc(50% - 5px);
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.social_login .SL_btn{
+    /* padding: 10px; */
+    text-align: center;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+.social_login .fa-facebook-f{
+    background-color: #2b5e9d;
+}
+.social_login .fa-twitter{
+    background-color: #4099ff;
+}
+.social_login .fa-google-plus-g{
+    background-color: #d94c4c;
+}
+.social_login .fa-apple{
+    background-color: #000;
+}
+.social_login a span{
+    padding-left: 10px;
+}
+.registerPage{
+    background-color: #efefef;
+    padding: 25px;
+    width: 100%;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+.registerPage h5{
+    font-size: 1.2rem;
+    font-family: "PremierSans-Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+.registerPage p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #242424;
+    margin-bottom: 25px;
+}
+.registerPage ul{
+    margin:0 0 20px 0;
+    padding-left: 20px;
+}
+.registerPage ul li{
+    margin: 0 0 7px 20px;
+    font-family: "PremierSans-Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #17202A;
+}
+.register{
+    width: 100%;
+    /* background-color: red; */
+    border: none;
+}
+.register a{
+    text-decoration: none;
+}
+.register a .registerbtn{
+    width: 100%;
+    border: none;
+    background-color: #e90052;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+.register:hover a .registerbtn{
+    background-color: #b60040;
+    color: #fff;
+}

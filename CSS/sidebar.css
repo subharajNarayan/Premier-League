@@ -1,0 +1,966 @@
+a {
+    background-color: transparent;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+img {
+    border: 0;
+}
+
+.icn.arrow-right {
+    width: 9px;
+    height: 8px;
+    background: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/arrows-sprite.png) -82px -56px no-repeat;
+}
+
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+abbr[title] {
+    border: 0;
+    cursor: help;
+}
+
+::-moz-selection {
+    background: #e90052;
+    color: #fff;
+}
+
+::selection {
+    background: #ff2882;
+    color: #fff;
+}
+
+img {
+    opacity: 1;
+    transition: opacity .35s ease-in-out, transform .2s;
+}
+
+.badge-image-container .badge-image {
+    vertical-align: middle;
+}
+
+.badge-image-container .badge-image--25 {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.matchAbridged {
+    background: #fff;
+    /* margin-top: 0.1rem; */
+    /* padding: 0.1rem; */
+    border-bottom: 1px solid #efefef;
+    display: block;
+    color: #242424;
+    position: relative;
+    transition: all .2s;
+    /* line-height: 24px; */
+    font-family: PremierSans-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.matchAbridged, .matchAbridged abbr[title] {
+    text-decoration: none;
+    padding-top: 15px;
+    margin-top: -2px;
+}
+
+.matchAbridged abbr[title]:hover {
+    cursor: pointer;
+}
+
+.matchAbridged span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.matchAbridged time {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 .5rem;
+    line-height: 1;
+    background: #fff;
+    border: 1px solid #efefef;
+    font-size: 0.8rem;
+    color: #2f2f2f;
+    transition: all .2s;
+    min-width: 2rem;
+    min-height: 1.8rem;
+    text-align: center;
+}
+
+.matchAbridged .teamName {
+    font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: right;
+}
+
+.matchAbridged>.teamName~.teamName {
+    text-align: left;
+}
+
+.matchAbridged .badge {
+    margin: -8px;
+}
+
+.matchAbridged .matchSummaryBroadcastersContainer {
+    margin-top: 0.7rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.matchAbridged [class*=arrow-right] {
+    position: absolute;
+    top: 1.7rem;
+    right: 1.4rem;
+    transition: right .2s;
+    content: "";
+    /* background: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/arrows-sprite.png) -82px -64px no-repeat; */
+    width: 9px;
+    height: 8px;
+}
+
+@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    .matchAbridged [class*=arrow-right] {
+        /* background-image: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/arrows-sprite@x2.png); */
+        background-size: 94px 88px;
+    }
+}
+
+.matchAbridged:not(.disabled):focus, .matchAbridged:not(.disabled):hover {
+    background: linear-gradient(270deg, #ff2882, #963cff 45%);
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width:43.75em) {
+    .matchAbridged:not(.disabled):focus, .matchAbridged:not(.disabled):hover {
+        color: #fff;
+    }
+}
+
+.matchAbridged:not(.disabled):focus time, .matchAbridged:not(.disabled):hover time {
+    background: #fff;
+    color: #2f2f2f;
+}
+
+.matchAbridged:not(.disabled):focus [class*=arrow-right], .matchAbridged:not(.disabled):hover [class*=arrow-right] {
+    content: "";
+    background: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/arrows-sprite.png) 0 -79px no-repeat;
+    width: 15px;
+    height: 9px;
+    right: 1rem;
+}
+
+@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    .matchAbridged:not(.disabled):focus [class*=arrow-right], .matchAbridged:not(.disabled):hover [class*=arrow-right] {
+        /* background-image: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/arrows-sprite@x2.png); */
+        background-size: 94px 88px;
+    }
+}
+
+.fixturesAbridgedContainer .day:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.fixturesAbridgedContainer .day>time {
+    text-align: center;
+    display: block;
+    padding: 0 1rem .8rem;
+    font-size: 1.3rem;
+    color: #2f2f2f;
+    font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.fixturesAbridged .matchAbridged time {
+    font-size: 13px;
+}
+
+
+/* Premier league color */
+
+.icn.pl-logo-centered-w-sm {
+    background: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/pl-logo-sprite.png) no-repeat;
+    width: 150px;
+    height: 29px;
+    background-position: -226px -155px;
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+::-moz-selection {
+    background: #e90052;
+    color: #fff;
+}
+
+::selection {
+    background: #ff2882;
+    color: #fff;
+}
+
+.fixedSidebar .tablist {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 0 .5rem;
+}
+
+.fixedSidebar .tablist li {
+    background: #ebebe6;
+    color: #6c6c6c;
+    padding: 1.3rem 1rem;
+    display: block;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 1.1rem;
+    font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.fixedSidebar .tablist li:focus, .fixedSidebar .tablist li:hover {
+    background: #83002e;
+}
+
+.fixedSidebar .tablist li.active {
+    background: #fff;
+    color: #242424;
+}
+
+.fixedSidebar .tabbedContent {
+    margin-bottom: 3rem;
+}
+
+.tablist li {
+    display: inline-block;
+    position: relative;
+    padding: 1.5rem 3rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ebebe6;
+    color: #6c6c6c;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 3px 3px 0 0;
+    font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width:43.75em) {
+    .tablist li {
+        padding: 1.2rem 2rem;
+    }
+}
+
+.tablist li:focus, .tablist li:hover {
+    background-color: #ff2882;
+    color: #fff;
+}
+
+.tablist li.active {
+    background: #fff;
+    color: #2f2f2f;
+    border-bottom: none;
+}
+
+.tabbedContent {
+    float: left;
+    width: 100%;
+}
+
+.homeStandingsHeader {
+    background: #ff2882;
+    padding-top: 1.3rem;
+    border-radius: 3px 3px 0 0;
+}
+
+.homeStandingsHeader.tabbedContent {
+    margin-bottom: 0;
+}
+
+.homeStandingsHeader .icn {
+    margin: 0 auto 1.3rem;
+}
+
+
+/* ------------------------statscard CSS--------------------- */
+header {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+img {
+    border: 0;
+}
+
+/* .icn.arrow-rightpink {
+    width: 12px;
+    height: 7px;
+    background: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/arrows-sprite.png) -82px -26px no-repeat;
+} */
+/* 
+@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    .icn.arrow-rightpink {
+        background-image: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/arrows-sprite@x2.png);
+        background-size: 94px 88px;
+    }
+} */
+
+.flag {
+    background-image: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/flags-sprite.png);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 20px;
+    display: inline-block;
+}
+
+@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    .flag {
+        background-image: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/flags-sprite@x2.png);
+        background-size: 270px 260px;
+    }
+}
+
+.flag.GB-ENG {
+    background-position: -120px -140px;
+}
+
+.flag {
+    background-position: -150px 0;
+}
+
+.icn {
+    background: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/global-sprite.png) no-repeat;
+    display: block;
+}
+
+
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+::-moz-selection {
+    background: #e90052;
+    color: #fff;
+}
+
+::selection {
+    background: #ff2882;
+    color: #fff;
+}
+
+.visuallyHidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+img {
+    opacity: 1;
+    transition: opacity .35s ease-in-out, transform .2s;
+}
+
+.badge-image-container .badge-image {
+    vertical-align: middle;
+}
+
+.badge-image-container .badge-image--20 {
+    width: 2rem;
+    height: 2rem;
+}
+
+.fixedSidebar .statsCard {
+    margin-bottom: 3rem;
+}
+
+.statsCard {
+    background: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15);
+    border-radius: 3px;
+    clear: both;
+    font-size: 1em;
+    overflow: auto;
+    margin-bottom: .5rem;
+    padding-top: 20px;
+}
+
+.statsCard header {
+    position: relative;
+}
+
+.statsCard .statsTitle {
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.statsCard .statsTitle:before {
+    content: "";
+    display: block;
+}
+
+.statsCard .statsTitle:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.statsCard .socialShare {
+    position: absolute;
+    top: .6rem;
+    right: .6rem;
+}
+
+.statsCard .statsCard__button {
+    color: #37003c;
+    float: right;
+    font-size: 16px;
+    font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 1.2rem 1.4rem 1.2rem .8rem;
+    text-decoration: none;
+}
+
+.statsCard .statsCard__button:hover {
+    color: #ff2882;
+}
+
+.statsCard .statsCard__button:hover .statsCard__button-icon {
+    left: .6rem;
+}
+
+.statsCard .statsCard__button-icon {
+    display: inline-block;
+    margin-left: 1rem;
+    position: relative;
+    left: 0;
+    transition: left .2s;
+    content: "";
+    background: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/sprites/arrows-sprite.png) -82px -26px no-repeat;
+    width: 12px;
+    height: 7px;
+}
+
+.statsCard .statsList {
+    overflow: hidden;
+}
+
+.statsCard .statsList a {
+    text-decoration: none;
+    display: block;
+    color: #2f2f2f;
+}
+
+.statsCard .statsList a:focus, .statsCard .statsList a:hover {
+    text-decoration: underline;
+}
+
+.statsCard .statsList .statsRow {
+    border-bottom: 1px solid #e8e8e8;
+    padding: .8rem;
+    font-size: 1.2rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 4.7rem;
+}
+
+.statsCard .statsList .statsRow a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+
+.statsCard .statsList .stat {
+    margin-left: auto;
+    font-size: 16px;
+}
+
+.statsCard .statsList .stat [class*=badge], .statsCard .statsList .stat a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.statsCard .pos {
+    font-size: 16px;
+}
+
+.statsCard .pos {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.statsCard .position {
+    font-size: 1.1rem;
+    font-family: PremierSans-Bold-Italic, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: .5rem;
+}
+
+.statsCard .stat {
+    float: right;
+}
+
+.statsCard .stat, .statsCard .statName {
+    color: #37003c;
+    font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.statsCard .statName {
+    font-size: 1.1rem;
+}
+
+.statsCard .statSeason {
+    position: absolute;
+    bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.statsCard .statsHero {
+    border-radius: 3px;
+    color: #fff;
+    padding: 0.6rem;
+    overflow: hidden;
+    margin: 0 .5rem;
+    min-height: 10.4rem;
+    background: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/bg-elements/stats-card-bg.svg), linear-gradient(270deg, #963cff, #37003c);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.statsCard .statsHero .pos {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    margin-top: 1.5rem;
+}
+
+.statsCard .statsHero .statName {
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+.statsCard .statsHero .statCardImg {
+    position: absolute;
+    right: -0.4rem;
+    bottom: 0;
+    max-width: 60%;
+    max-height: 95%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.statsCard .playerClub {
+    margin-left: .5rem;
+}
+
+.statsCard .flag {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.wrapper {
+    max-width: 1376px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+}
+
+.wrapper:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.wrapper.col-12 {
+    float: none;
+}
+
+.wrapper .col-12, .wrapper .wrapper.col-12 {
+    padding: 0;
+}
+
+@media (max-width:43.75em) {
+    .wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wrapper.col-12 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+p {
+    line-height: 1.6;
+    color: #242424;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+h1, h3, h4, h5, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+table {
+    font-size: inherit;
+}
+
+abbr[title] {
+    border: 0;
+    cursor: help;
+}
+
+::-moz-selection {
+    background: #e90052;
+    color: #fff;
+}
+
+::selection {
+    background: #ff2882;
+    color: #fff;
+}
+
+.visuallyHidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+.btn {
+    text-align: center;
+    padding: 0 1.2rem;
+    text-decoration: none;
+    background: #37003c;
+    color: #fff;
+    display: block;
+    transition: all .2s;
+    position: relative;
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 2rem;
+    border-radius: 3px;
+    font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.btn:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -1px;
+    background-image: linear-gradient(270deg, #ff2882, #963cff);
+    z-index: -1;
+    transition: opacity .2s linear;
+    transition-delay: .2s;
+    opacity: 0;
+}
+
+.btn:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    /* left: -100%; */
+    width: 100%;
+    background-image: linear-gradient(90deg, #ff2882, #37003c);
+    z-index: -1;
+    transition: all .2s linear;
+    opacity: 0;
+}
+
+.btn [class*=icn] {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: 1rem;
+}
+
+.btn [class*=arrow-right] {
+    content: "";
+    width: 15px;
+    height: 9px;
+    left: auto;
+    right: 1.6rem;
+    top: 1.5rem;
+    transition: right .2s;
+    position: absolute;
+}
+.btn:focus, .btn:hover {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15);
+}
+
+.btn:focus:after, .btn:focus:before, .btn:hover:after, .btn:hover:before {
+    opacity: 1;
+    left: -1px;
+}
+
+.icon-button {
+    color: #37003c;
+    font-size: 1.2rem;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 0 3rem;
+}
+
+.icon-button__icon {
+    display: inline-block;
+    margin-bottom: -.6rem;
+    margin-right: 1rem;
+}
+
+
+
+.widget-button {
+    color: #2f2f2f;
+    background: none;
+    text-align: right;
+    padding-right: .6rem;
+}
+
+.widget-button:after, .widget-button:before {
+    content: none;
+}
+
+.widget-button:focus, .widget-button:hover {
+    color: #ff2882;
+    text-decoration: underline;
+    box-shadow: none;
+}
+
+
+.relatedArticle {
+    text-decoration: none;
+    color: #6c6c6c;
+    display: block;
+    font-size: 1.1rem;
+    line-height: 2.3;
+    position: relative;
+    transition: all .2s;
+    /* padding-left: 3.5rem; */
+}
+
+.relatedArticle.club {
+    min-height: 3rem;
+}
+
+.relatedArticle.club:before {
+    display: none;
+}
+
+.relatedArticle p {
+    display: inline-block;
+    vertical-align: center;
+    line-height: 1.8;
+    font-size: 0.9rem;
+    color: #6c6c6c;
+}
+
+.relatedArticle p:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.relatedArticle .badge {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.relatedArticle .badge+p:before {
+    display: none;
+}
+
+.relatedArticle .badge .badge-image {
+    vertical-align: middle;
+}
+
+.relatedArticle .icn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: .3rem;
+    margin-top: -1px;
+}
+
+.relatedArticle:focus p, .relatedArticle:hover p {
+    text-decoration: underline;
+    color: #ff2882;
+}
+
+.tablist li {
+    display: inline-block;
+    position: relative;
+    padding: 1.5rem 3rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ebebe6;
+    color: #6c6c6c;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 3px 3px 0 0;
+    font-family: PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.tablist li:focus, .tablist li:hover {
+    /* background-color: #ff2882; */
+    color: #fff;
+}
+
+.tablist li.active {
+    background: #fff;
+    color: #2f2f2f;
+    border-bottom: none;
+}
+
+.tabbedContent {
+    float: left;
+    width: 100%;
+}
+
+.tabbedContent [data-ui-tab] {
+    display: none;
+    position: relative;
+}
+
+.tabbedContent [data-ui-tab]:before {
+    content: "";
+    display: block;
+}
+
+.tabbedContent [data-ui-tab]:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tabbedContent [data-ui-tab].active {
+    display: block;
+}
